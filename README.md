@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# TextUtils App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Todo List App](/textutils.png)
 
-## Available Scripts
+TextUtils is a web application built with React.js that allows users to manipulate and analyze text easily. Whether you want to format, clean, or analyze text data, TextUtils has you covered. It offers a range of text transformation and analysis tools to simplify your tasks.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Text Transformation:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  - Uppercase: Convert text to uppercase.
+  - Lowercase: Convert text to lowercase.
+  - Capitalize: Capitalize the first letter of each word.
+  - Clear Text: Clear the text input.
+  - Copy Text: Copy the text to the clipboard.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Text Analysis:**
+  - Word Count: Count the number of words in the text.
+  - Character Count: Count the total number of characters.
+  - Remove Punctuation: Strip punctuation from the text.
+  - Remove Numbers: Remove numerical characters from the text.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow these steps to get the TextUtils app up and running on your local machine.
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Make sure you have the following software installed on your system:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js: Download and install Node.js from [nodejs.org](https://nodejs.org/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository to your local machine:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/mkkapadi12/textutils.git
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Change your working directory to the project folder:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   cd textutils-app
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install the required dependencies:
 
-## Learn More
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Running the App
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Start the development server:
 
-### Code Splitting
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to access the TextUtils app.
 
-### Analyzing the Bundle Size
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Enter or paste your text into the text input field.
+2. Choose a transformation or analysis option from the available buttons.
+3. The transformed or analyzed text will be displayed in the output area.
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are welcome! If you have any improvements or new features to suggest, please open an issue or create a pull request on the [https://github.com/mkkapadi12/textutils](https://github.com/mkkapadi12/textutils).
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-### Deployment
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Built with [React.js](https://reactjs.org/).
+- This project is inspired by various online text manipulation tools and tutorials.
 
-### `npm run build` fails to minify
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions or need assistance, please feel free to contact us at mayurkapadi12@gmail.com
+
+Enjoy using TextUtils for all your text manipulation and analysis needs!
